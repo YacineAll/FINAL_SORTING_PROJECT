@@ -1,0 +1,10 @@
+entree_sortie.o: entree_sortie.c entree_sortie.h
+Graphe.o: Graphe.c Graphe.h Grille.h Solution.h ListeDC.h LCircuit.h
+Grille.o: Grille.c Grille.h Solution.h
+LCircuit.o: LCircuit.c LCircuit.h ListeDC.h Graphe.h Grille.h Solution.h
+ListeDC.o: ListeDC.c ListeDC.h
+main_exo1.o: main_exo1.c Graphe.h Grille.h Solution.h ListeDC.h \
+ LCircuit.h
+main_Graphe.o: main_Graphe.c Grille.h Solution.h Graphe.h ListeDC.h \
+ LCircuit.h
+Solution.o: Solution.c Solution.h entree_sortie.h
