@@ -11,3 +11,5 @@ Le jeu se d ́eroule sur une grille de *m* lignes et *n* colonnes (potentielleme
 Les lignes sont numérotées de 0 à *m* - 1  et les colonnes de 0 à *n* - 1. Dans l’exemple, la case (1,0) est de fond bleu fonc ́e et contient une piece (rectangulaire) de couleur bleu-ciel. La piece bleu ciel doit aller en case (0,1) 1) qui contient elle une piece mauve qui doit aller en case (0,4),... La case (2,2) est noire car elle est de mˆeme couleur que la piece qu’elle contient : il n’y a donc rien à faire pour cette case.
 
 * *Actions du robot*
+
+Le robot est au depart en case (0,0) : il est represente par un petit rectangle colore qui est entouré de blanc. Au départ, le robot ne porte pas de piéce et le robot est alors noir. S’il porte une piéce de 
