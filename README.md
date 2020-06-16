@@ -42,4 +42,13 @@ Une séquence d’actions du robot peut donc s’écrire comme une suite de lett
 Dans le cas de la grille ci-dessus, le robot a par exemple la possibilité de choisir d’aller déposer sa pièce rouge en case (0,0) ou en case (2,4) (notez qu’il peut aussi choisir de dèposer sa pièce ailleurs temporairement).
 
 ### *Mais alors quand est-ce qu’on gagne ?*
-Si le jeu se limitait à dèterminer une sèquence d’actions qui mènent à une grille toute noire, le jeu serait trés facile. L’objectif est d’utiliser un nombre minimal de pas. Mais dans ce cas, comment peut-on savoir si on a mal ou bien joué ?
+Si le jeu se limitait à dèterminer une sèquence d’actions qui mènent à une grille toute noire, le jeu serait trés facile. L’objectif est d’utiliser un nombre minimal de pas. Mais dans ce cas, comment peut-on savoir si on a mal ou bien joué ?.
+
+Le but de ce projet est justement de faire déterminer par un algorithme la séquence la plus courte possible : ainsi, un joueur pourra se “mesurer à l’ordinateur” pour avoir le meilleur score.
+
+ ### *Est-ce un jeu difficile ?*
+ 
+En fait ce jeu n’est pas qu’un jeu. Il est une simplification de déplacements possibles de robots en atelier ou en usine : cela peut-étre des robots qui construisent ou réparent des cartes électroniques, ou des robots qui cablent des prises ethernet, ou méme des robots géants qui déplacent des objets trés lourds comme du combustible nucléaire dans des centrales électriques.
+
+Ce jeu a été étudié par des chercheurs. Il a été prouvé qu’il est “difficile” de trouver la séquence la plus courte possible : il s’agit d’un probléme NP-difficile. Quand un probléme est NP-difficile, cela veut dire qu’on ne connait pas d’algorithme polynomial pour le résoudre exactement.  Cela n’émpéche pas qu’il est possible de trouver de trés bonnes solutions en temps “raisonnable” !.
+ 
