@@ -15,4 +15,5 @@ Les lignes sont numérotées de 0 à *m* - 1  et les colonnes de 0 à *n* - 1. D
 Le robot est au depart en case (0,0) : il est represente par un petit rectangle colore qui est entouré de blanc. Au départ, le robot ne porte pas de piéce et le robot est alors noir. S’il porte une piéce de couleur *c* , il devient un rectangle de couleur *c* entouré de blanc. 
 
 Un robot peut effectuer les actions suivantes :
-  
+  - a
+  - b
