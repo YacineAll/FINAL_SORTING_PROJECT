@@ -25,3 +25,20 @@ Un robot peut effectuer les actions suivantes :
     2. Si le robot porte pièce et qu’il est sur une case sans pièce : il dèpose alors sa pièce; le robot a une pièce et il est sur une case avec pièce : il èchange sa pièce avec celle de la case.
   
     3. Si un robot est sans pièce sur une case sans pièce ou sur une case noire, il ne se passe rien.
+    
+    
+Il est important de noter que le robot choisit librement d’effectuer l’une ou l’autre des actions : en particulier, rien ne l’oblige à dèposer une pièce sur une case de mème couleur (mème si c’est à terme son objectif final).
+
+Le but du jeu est de dèplacer le robot et d’effectuer des èchanges de manière à ce que toutes les piéces soient placèes sur une case de mème couleur. La case devient alors noire : à la fin du jeu, la grille entière doit donc ètre noire. L’objectif pour gagner est en plus de rèaliser cela avec un nombre de pas le plus petit possible (le nombre d’échanges n’est pas pris en compte).
+
+Une séquence d’actions du robot peut donc s’écrire comme une suite de lettres parmi L, R, U, D et S. Par exemple, la grille ci-dessous est obtenue à partir de la grille initiale plus haut par la séquence d’actions (’D’, ’S’, ’R’, ’U’, ’S’, ’R’, ’R’,’S’). A l’issue de cette séquence, la case (1,0) n’a plus de pièce, les cases (0,1) et (0,4) sont devenues noires. Le robot est à présent sur la case (0,4) et porte une pièce rouge.
+
+- *Instances de grille*
+On distingue deux types d’instances de grille :
+  - les instances ou il y a plusieurs cases par méme couleur.
+  - les instances ou il y a une seule case par couleur.
+ 
+Dans le cas de la grille ci-dessus, le robot a par exemple la possibilité de choisir d’aller déposer sa pièce rouge en case (0,0) ou en case (2,4) (notez qu’il peut aussi choisir de dèposer sa pièce ailleurs temporairement).
+
+- *Mais alors quand est-ce qu’on gagne ?*
+Si le jeu se limitait à dèterminer une sèquence d’actions qui mènent à une grille toute noire, le jeu serait trés facile. L’objectif est d’utiliser un nombre minimal de pas. Mais dans ce cas, comment peut-on savoir si on a mal ou bien joué ?
