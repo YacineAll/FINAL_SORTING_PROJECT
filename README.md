@@ -34,7 +34,8 @@ Le but du jeu est de dèplacer le robot et d’effectuer des èchanges de maniè
 Une séquence d’actions du robot peut donc s’écrire comme une suite de lettres parmi L, R, U, D et S. Par exemple, la grille ci-dessous est obtenue à partir de la grille initiale plus haut par la séquence d’actions (’D’, ’S’, ’R’, ’U’, ’S’, ’R’, ’R’,’S’). A l’issue de cette séquence, la case (1,0) n’a plus de pièce, les cases (0,1) et (0,4) sont devenues noires. Le robot est à présent sur la case (0,4) et porte une pièce rouge.
 
 - *Instances de grille*
-On distingue deux types d’instances de grille :
+  
+  On distingue deux types d’instances de grille :
   - les instances ou il y a plusieurs cases par méme couleur.
   - les instances ou il y a une seule case par couleur.
  
