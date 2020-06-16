@@ -20,8 +20,8 @@ Un robot peut effectuer les actions suivantes :
   
 2. *Faire un èchange* (ou swap, en anglais) 'S' : cette action a plusieurs configurations :
     
-  1. Si le robot est sans pièce et qu’il est sur une case avec une pièce : il prend alors la pièce.
+    1. Si le robot est sans pièce et qu’il est sur une case avec une pièce : il prend alors la pièce.
     
-  2. Si le robot porte pièce et qu’il est sur une case sans pièce : il dèpose alors sa pièce; le robot a une pièce et il est sur une case avec pièce : il èchange sa pièce avec celle de la case.
+    2. Si le robot porte pièce et qu’il est sur une case sans pièce : il dèpose alors sa pièce; le robot a une pièce et il est sur une case avec pièce : il èchange sa pièce avec celle de la case.
   
-  3. Si un robot est sans pièce sur une case sans pièce ou sur une case noire, il ne se passe rien.
+    3. Si un robot est sans pièce sur une case sans pièce ou sur une case noire, il ne se passe rien.
